@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Styling a HTML Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<form>
+    <h3>Step 1: Your Details</h3>
+    <div id="name">
+        <label>Name:</label>
+        <input type="text" name="fullname" placeholder="First and Last Name">
+    </div>
+    <div id="email">
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="example@domain.com">
+    </div>
+    <div id="phone">
+        <label>Phone:</label>
+    <input type="number" name="phone" placeholder="eg. 20000000000600">
+    </div>
+    <h3>Step 2: Delivery address</h3>
+    <div id="address">
+        <label>Address:</label>
+        <textarea rows="4" cols="24"></textarea>
+    </div>
+    <div id="postcode">
+        <label>Post Code:</label>
+    <input type="number" name="postcode">
+     </div>
+    <div id="country">
+    <label>Country:</label>
+    <input type="text" name="country">
+     </div>
+    <h3>Step 3: Card Details</h3>
+    <div id="cardtype">
+        <label>Card Type:</label>
+        <div id="choosecard">
+        <input type="radio" name="cardtype" value="visa"> <img src="Old_Visa_Logo.svg.png">Visa
+        <input type="radio" name="cardtype" value="amex"> <img src="amex.jpg"> Am Ex
+        <input type="radio" name="cardtype" value="mastercard"> <img src="MasterCard_early_1990s_logo.png"> Master Card
+        </div>
+    </div>
+    <div id="cardnumber">
+        <label>Card Number:</label>
+        <input type="number" name="cardnumber">
+    </div>
+    <div id="securitycode">
+        <label>Security Code:</label>
+        <input type="text" name="securitycode">
+    </div>
+    <div id="nameoncard">
+        <label>Name on Card:</label>
+        <input type="text" name="nameoncard" placeholder="Exact name as on the card">
+    </div>
+    <input type="submit" value="BUY IT!">
+
+</form>
+</body>
+</html>

@@ -1,0 +1,143 @@
+#wrapper {
+    height: 420px;
+    width: 745px;
+    background-color: lightgrey;
+    border: 1px solid grey; 
+    font-family: Arial Narrow, Arial, sans-serif;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+header {
+    color: darkblue;
+    font-size: 2em;
+    font-weight: bold;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+h3 {
+    color: grey;
+    position: relative;
+    left: 10px;
+    top: 30px;
+}
+                /* REGISTRATION */
+
+#new_registration {
+    height: 300px;
+    width: 350px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+span {
+    color: darkblue;
+}
+input {
+    display: block;
+    border: 1px solid grey;
+    position: relative;
+    font-size: 1em;
+    padding-left: 10px;
+    height: 40px;
+        /* CALCULATE the width of element */
+    width: calc(100% - 20px);
+    margin: 10px auto;
+        /* How to make element not GO OUT of PARENT element */
+    box-sizing: border-box;
+}
+        /* manipulate a PLACEHOLDER*/
+input::-webkit-input-placeholder {
+    font-size: 1em;
+    font-family: sans-serif;
+    font-weight: 100;
+
+}
+form:nth-of-type(1) input:nth-of-type(5) {
+    display: block;
+    color: darkblue;
+    border: 2px solid darkblue;
+    height: 40px;
+    width: calc(100% - 20px - 50%);
+    right: 10px;
+    position: absolute;
+    font-size: 20px;
+}
+
+h1 {
+    margin-top: 5px;
+    position: relative;
+    left: 10px;
+    word-spacing: 0.1em;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    color: grey;
+}
+
+                /* SIGN IN */
+
+#sign_in     {
+    height: 280px;
+    width: 350px;
+    position: relative;
+    top:50px;
+    left: 375px;
+    background-color: #3b5575;
+}
+#sign_in h1 {
+    color: white;
+    padding: 10px 0 5px 0
+} 
+#sign_in input:nth-of-type(3) {
+    display: inline-block;
+    background-color: #3b5575;
+    border: 2px solid orange;
+    width: calc(100% - 40px - 50%);
+    position: absolute;
+    color: white;
+    margin-top: 0;
+    margin-left: 10px;
+    left: 195px;
+}
+a {
+    color: white;
+    font-size: 0.7em;
+    letter-spacing: 0.08em;
+    position: absolute;
+    margin-left: 10px;
+    left: 225px;
+}
+#sign_in input:nth-of-type(4) {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    position: relative;
+    margin: 0 0 0 10px;
+}
+form {
+    color: white;
+}
+input:nth-of-type(5):hover, #sign_in input:nth-of-type(3):hover {
+    cursor: pointer;
+}
+                /* INPUT REQUIRED/VALIDATE */
+input:required:invalid, input:focus:invalid {
+    color: red;
+    background-image: url(redball.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+
+}
+input:required:valid {
+    color: lightgreen;
+    background-image: url(greenball.png);
+    background-size: 20px 20px;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+

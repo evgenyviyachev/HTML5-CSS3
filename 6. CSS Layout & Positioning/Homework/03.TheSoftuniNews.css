@@ -1,0 +1,114 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+body {
+    font-family: Verdana;
+}
+
+div#main {
+    position: relative;
+    width:960px;
+    height: 510px;
+    background: #E8E8E8;
+}
+
+h5, time {
+  color: #234465;
+}
+
+section {
+    position: absolute;
+    width:950px;
+    height: 340px;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin:auto;
+    margin-top:60px;
+}
+
+article {
+    display: inline-block;
+    width:260px;
+    height: 320px;
+    vertical-align: top;
+    padding:15px 15px 3px 15px;
+    margin-left: 19px;
+    background: white;
+    box-shadow: 0px 2px grey;
+}
+
+time {
+    display: block;
+    font-size:12px;
+    text-align: right;
+}
+
+.author-info, .tags {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color:#B0B0B0;
+}
+
+div.image {
+    width:260px;
+    height: 100px;
+    margin-top:10px;
+    background-position: center;
+}
+
+div#apply {
+    background-image: url('https://softuni.bg/Files/Publications/2014/06/3-of-july-calendar-icon-Download-Royalty-free-Vector-File-EPS-14332_17222654.jpg');
+}
+
+div#summer {
+    background-image: url('https://softuni.bg/Files/Publications/2014/06/images_154549699.jpg');
+}
+
+div#conf {
+    background-image: url('https://softuni.bg/Files/Publications/2014/06/softuni-conf-news_164223324.jpg');
+}
+
+p.info {
+    display: block;
+    height:40px;
+    margin-top:15px;
+}
+
+div#main ul {
+     position: absolute;
+     bottom: 25px;
+     left:25px;
+ }
+
+div#main ul li {
+     display: inline-block;
+     margin-right: -5px;
+ }
+
+div#main ul li a {
+    position: relative;
+    display:block;
+    width:40px;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    color:white;
+    background-color: #0099CC;
+    margin: 1px;
+}
+
+div#main ul li a:hover {
+    background: #FF9900;
+}
+
+header > h3 {
+    position: absolute;
+    top:22px;
+    left: 22px;
+    color:#234465;
+}

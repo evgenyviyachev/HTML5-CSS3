@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Life in Soft Uni</title>
+  <style>
+  table {
+    border: 1px solid black;
+    font-size: 28px;
+    color: blue;
+  }
+  tr.single {
+    height: 150px;
+  }
+  tr.nested {
+    height: 70px;
+  }
+  td {
+    text-align: center;
+    border: 1px solid black;
+    width: 100px;
+    background: linear-gradient(#f5f5f5 50%, #e0e0e0 50%, #e0e0e0 100%);
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+    background-position: center;
+    background-size: 95% 85%;
+  }
+  td.small {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  td.right {
+    text-align: right;
+  }
+  div {
+    background-color: blue;
+    border-radius: 20px;
+  }
+  #empty {
+    background: none;
+  }
+  .uppercase {
+    text-transform: uppercase;
+  }
+  a:link, a:visited, a:active {
+    text-decoration: none;
+    color: blue;
+  }
+  </style>
+</head>
+<body>
+  <table>
+    <tr class="single">
+      <td class="uppercase" colspan="4"><a href="#" target="_blank"><h1><strong>SoftUni LIFE</strong></h1></a></td>
+    </tr>
+    <tr class="single">
+      <td class="uppercase" colspan="2"><a href="#" target="_blank">Google</a></td>
+      <td colspan="2"><a href="#" target="_blank">GitHub</a></td>
+    </tr>
+    <tr class="single">
+      <td><a href="#" target="_blank">FB</a></td>
+      <td><a href="#" target="_blank">GMail</a></td>
+      <td><a href="#" target="_blank">YouTube</a></td>
+      <td><a href="#" target="_blank">2048</a></td>
+    </tr>
+    <tr class="single">
+      <td><a href="#" target="_blank">Food</a></td>
+      <td colspan="2"><a href="#" target="_blank">Game</a></td>
+      <td id="empty">
+        <table>
+          <tr class="nested">
+            <td class="small"><a href="#" target="_blank">Social Life</a></td>
+          </tr>
+          <tr class="nested">
+            <td class="small"><a href="#" target="_blank">Sleep</a></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr class="single">
+      <td class="right" colspan="3"><strong><h2><a href="#" target="_blank">Beer >>></a></h2></strong></td>
+      <td class="uppercase"><a href="#" target="_blank">WC</a></td>
+    </tr>
+  </table>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Fakebook</title>
+  <link rel="stylesheet" href="04.FakebookRegisterForm.css">
+</head>
+<body>
+  <div id="wrapper">
+    <header>
+      <h1>fakebook<span class="reg">&reg;</span></h1>
+      <h3>Registration</h3>
+      <h4>It is safe and it will always be!</h4>
+    </header>
+    <main>
+      <table>
+        <tbody>
+          <tr id="first-row">
+            <td id="left-form">
+              <form class="left" action="#" method="post">
+                <fieldset>
+                  <legend>Non-important information</legend>
+                  <input type="text" name="fn" placeholder="First Name">
+                  <input type="text" name="ln" placeholder="Last Name">
+                  <input type="email" name="email" placeholder="Your Email">
+                  <input type="tel" name="phone" placeholder="Phone Number">
+                  <input type="password" name="pass" placeholder="Your Password">
+                  <input type="url" name="website" placeholder="Your Website">
+                  <label for="birthday">Birthday</label>
+                  <input type="datetime-local" name="birthday" value="2014-09-05T13:58">
+                  <input type="radio" name="gender" value="value1">Female
+                  <input type="radio" name="gender" value="value2">Male
+                  <input type="radio" name="gender" value="value3">Other
+                </fieldset>
+              </form>
+            </td>
+            <td id="right-form">
+              <form class="left" action="#" method="post">
+                <fieldset>
+                  <legend>Important information *required</legend>
+                  <select name="country">
+                    <option value="value1" selected="selected">Country</option>
+                    <option value="value2">Bulgaria</option>
+                  </select>
+                  <input type="text" name="village" placeholder="Village">
+                  <input type="text" name="distinct" placeholder="Distinct">
+                  <input type="text" name="street" placeholder="Street">
+                  <input type="number" name="num" placeholder="Nr">
+                  <input type="number" name="floor" placeholder="Floor">
+                  <input type="number" name="ap" placeholder="Ap Nr">
+                  <label for="color">Door Color</label>
+                  <input type="color" name="color" value="#f06292">
+                  <input type="number" name="wmn" placeholder="Water Meter Nr">
+                  <select name="size">
+                    <option value="value1" selected="selected">Aunt's Panties Size</option>
+                    <option value="value2">XXL</option>
+                    <option value="value3">XXXL</option>
+                    <option value="value4">Infiniy</option>
+                  </select>
+                  <label for="personal-info">More Personal Information</label>
+                  <textarea name="personal-info" placeholder="Give Us More Information!!!"></textarea>
+                </fieldset>
+              </form>
+            </td>
+          </tr>
+          <tr>
+            <td id="left-button">
+              <input type="reset" name="clear" value="Clear Form">
+            </td>
+            <td>
+              <input type="submit" name="register" value="Register">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </div>
+</body>
+</html>

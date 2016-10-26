@@ -1,0 +1,146 @@
+body, #wrapper {
+  width: 100%;
+  box-sizing: border-box;
+}
+#wrapper {
+  max-width: 1260px;
+  font-family: 'Jockey One';
+  font-size: 20px;
+  background-color: #e0e0e0;
+}
+header {
+  font-family: 'Iceland';
+  font-size: 26px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: black;
+  color: yellow;
+  height: 80px;
+  position: fixed;
+}
+header p.logo {
+  font-size: 50px;
+  position: absolute;
+  left: 200px;
+  top: 15px;
+  cursor: pointer;
+}
+header ul {
+  position: absolute;
+  bottom: 0;
+  left: 800px;
+}
+header ul li {
+  display: inline-block;
+  margin: 10px;
+}
+header ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+main {
+  width: 900px;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+main section.hello-it {
+  width: 100%;
+  height: 400px;
+  background-image: url('../02-baner-img.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main > div#container {
+  width: 100%;
+  box-sizing: border-box;
+  height: 440px;
+  padding: 70px 30px;
+  padding-right: 0;
+  padding-bottom: 0;
+  background-color: white;
+}
+main > div#container section {
+  float: left;
+  width: 45%;
+  height: 350px;
+}
+main > div#container section:nth-child(2) {
+  margin-left: 50px;
+}
+main > div#container section article {
+  height: 50%;
+  box-sizing: border-box;
+}
+main > div#container section article:nth-child(2) {
+  height: 40%;
+}
+main > div#container section article img {
+  width: 120px;
+  height: 120px;
+  float: left;
+}
+main > div#container section article div.header {
+  color: green;
+  font-size: 30px;
+  margin-left: 130px;
+  padding-bottom: 20px;
+}
+main > div#container section article p {
+  margin-left: 130px;
+}
+footer {
+  width: 100%;
+  height: 140px;
+  color: #d4e157;
+  box-sizing: border-box;
+  background-color: black;
+  position: relative;
+}
+footer ul.contacts {
+  position: absolute;
+  top: 10px;
+  left: 200px;
+}
+footer ul.contacts li {
+  margin-bottom: 5px;
+}
+footer ul.contacts li:hover {
+  cursor: pointer;
+  color: yellow;
+}
+footer p {
+  position: absolute;
+  left: 200px;
+  bottom: 10px;
+  color: white;
+  font-size: 14px;
+}
+footer ul.social-media {
+  position: absolute;
+  top: 10px;
+  left: 870px;
+}
+footer ul.social-media li {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  margin-left: 25px;
+  border: none;
+  opacity: 0.8;
+}
+footer ul.social-media li:nth-child(1) {
+  background-image: url('../twitter.png');
+  background-repeat: no-repeat;
+}
+footer ul.social-media li:nth-child(2) {
+  background-image: url('../facebook.png');
+  background-repeat: no-repeat;
+}
+footer ul.social-media li:nth-child(3) {
+  background-image: url('../youtube.png');
+  background-repeat: no-repeat;
+}
+footer ul.social-media li:hover {
+  cursor: pointer;
+  opacity: 1;
+}

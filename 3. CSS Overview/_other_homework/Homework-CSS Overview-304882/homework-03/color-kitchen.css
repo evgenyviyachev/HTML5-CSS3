@@ -1,0 +1,122 @@
+body, div, head, section, article, footer, h1, h2, h3, p, img,
+ul, li, ol, table, th, tr, td {
+	margin: 0;
+	padding: 0;
+	font-family: verdana, sans-serif;
+	list-style: none;
+}
+
+body {
+	background-image: url(images/dots.jpg);
+}
+
+header.red-blue {
+	margin-bottom: 15px;
+	background: linear-gradient(90deg, red 50%, blue 50%);
+}
+
+header h1 {
+	color: yellow;
+	background-color: green;
+	padding: 5px;
+	width: 33%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+aside {
+	float: left;
+	width: 15%;
+	margin-left: 2%;
+}
+
+section {
+	float: right;
+	width:75%;
+	margin-right: 2%;
+}
+
+/*-- menu --*/
+
+aside a {
+	text-decoration: none;
+}
+
+aside nav {
+	background-color: rgba(255,255,255,.8);
+	border-radius: 8px;
+	padding: 8px;
+}
+
+img {
+	width: 8%;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+aside header.features {
+	text-decoration: underline;
+	margin-bottom: 8px;
+}
+
+aside ul li {
+	margin-bottom: 5px;
+}
+
+aside a {
+	display: block;
+	padding: 0px;
+	color: #000;
+}
+
+aside a:visited {color: #777;}
+
+aside a.r:hover {background-color: red;border-radius: 6px;}
+aside a.o:hover {background-color: orange;border-radius: 6px;}
+aside a.y:hover {background-color: yellow;border-radius: 6px;}
+aside a.g:hover {background-color: green;border-radius: 6px;}
+aside a.b:hover {background-color: blue;border-radius: 6px;}
+aside a.p:hover {background-color: purple;border-radius: 6px;}
+
+
+/*-- main --*/
+
+article {
+	background-color: rgba(255,255,255,.8);
+	padding: 10px;
+	margin-bottom: 8px;
+	border-radius: 8px;
+}
+#webColors {background-color: red; padding: 6px; border-radius:6px; font-size: 26px; margin-bottom: 10px; color: #fff;}
+#webSafeColors {background-color: orange; padding: 6px; border-radius:6px; font-size: 26px; margin-bottom: 10px;}
+#RGB {background-color: yellow; padding: 6px;  border-radius:6px; font-size: 26px; margin-bottom: 10px;}
+#RGBA{background-color: green; padding: 6px;  border-radius:6px; font-size: 26px; margin-bottom: 10px; color: #fff;}
+#HSLHSV{background-color: blue; padding: 6px;   border-radius:6px; font-size: 26px; margin-bottom: 10px; color: #fff;}
+#lorem{background-color: purple; padding: 6px;  border-radius:6px; font-size: 26px; margin-bottom: 10px; color: #fff;}
+
+article p {
+	margin-bottom: 10px;
+}
+
+article div {
+	margin-bottom: 10px;
+}
+
+article p:first-letter {
+	font-size: 60px;
+	font-style: italic;
+}
+
+article p:first-line {
+	font-style: italic;
+}
+
+article a {
+	font-style: italic;
+	color: #777;
+}
+
+article span {
+	font-style: italic;
+	color: blue;
+}

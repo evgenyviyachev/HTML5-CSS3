@@ -1,0 +1,429 @@
+#wrapper {
+  margin: 10px auto;
+  width: 960px;
+  height: 720px;
+  background-color: #0d47a1;
+}
+header {
+  height: 100px;
+  font-family: Arial, sans-serif;
+}
+header img {
+  width: 100px;
+  height: auto;
+  float: left;
+}
+header nav {
+  position: relative;
+  top: 75px;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+header nav ul li {
+  color: white;
+  font-weight: bold;
+  height: 24px;
+  line-height: 24px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 10px;
+}
+.dropbtn {
+  background-color: #0d47a1;
+  border: none;
+  box-sizing: border-box;
+  font-size: 16px;
+  position: relative;
+  bottom: 1px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  width: 100%;
+}
+.dropdown-content a {
+  color: #0d47a1;
+  font-weight: bold;
+  height: 26px;
+  line-height: 26px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration: none;
+  display: block;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.dropdown-content a:hover {
+  background-color: #0d47a1;
+  color: white;
+  border-radius: 10px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  z-index: 100;
+  position: relative;
+  left: 5px;
+  width: 215px;
+  bottom: 2px;
+}
+header nav ul li:hover {
+  color: #0d47a1;
+  font-weight: bold;
+  background-color: white;
+  display: inline-block;
+  cursor: pointer;
+}
+header nav ul li.hover-full:hover {
+  width: 100%;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+main {
+  height: 500px;
+  background-color: #0277bd;
+  margin: 0 10px;
+  position: relative;
+}
+section:nth-child(1) {
+  color: white;
+  width: 50%;
+  box-sizing: border-box;
+  padding-top: 15px;
+}
+section > p {
+  margin-left: 200px;
+  margin-bottom: 10px;
+}
+section > table {
+  margin: 0 auto;
+  width: 420px;
+  box-sizing: border-box;
+}
+table thead {
+  border-collapse: collapse;
+}
+th {
+  vertical-align: middle;
+}
+th.first-col {
+  width: 25px;
+}
+th.third-col {
+  width: 25px;
+}
+th.fourth-col {
+  width: 55px;
+}
+table td {
+  border: 1px solid white;
+  vertical-align: middle;
+}
+td:not(.left) {
+  text-align: center;
+  vertical-align: middle;
+}
+td.left {
+  padding-left: 5px;
+}
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+table tr {
+  height: 24px;
+}
+tr.first-row, tr.second-row {
+  background-color: rgba(0, 105, 92, 0.7)
+}
+tr.third-row {
+  background-color: rgba(104, 159, 56, 0.7);
+}
+tr.fourth-row {
+  background-color: rgba(173, 20, 87, 0.7);
+}
+section:nth-child(2) {
+  position: absolute;
+  bottom: 20px;
+  color: white;
+  width: 46%;
+  margin-left: 2%;
+  height: 265px;
+  box-sizing: border-box;
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+@font-face {
+  font-family: pacman;
+  src: url('../../Resources/fonts/PAC-FONT.TTF');
+}
+.article div {
+  font-family: pacman;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.article > ul {
+  display: flex;
+  justify-content: center;
+}
+.article > ul > li {
+  background-color: rgba(1, 87, 155, 0.9);
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+.article > ul > li:nth-child(1) {
+  display: block;
+  width: 85px;
+  height: 65px;
+  background-image: url('../../Resources/images/titanic.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+}
+.article > ul > li:nth-child(2) {
+  display: block;
+  width: 85px;
+  height: 60px;
+  background-image: url('../../Resources/images/pumba.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+}
+.article > ul > li:nth-child(3) {
+  display: block;
+  width: 85px;
+  height: 20px;
+  background-image: url('../../Resources/images/nissan-logo.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  position: relative;
+  top: 20px;
+}
+.article article {
+  margin-bottom: 15px;
+  text-indent: 25px;
+  text-align: justify;
+}
+.article article span {
+  color: #bdbdbd;
+  cursor: pointer;
+}
+.article article span, .article footer span {
+  font-style: italic;
+}
+aside form {
+  position: absolute;
+  right: 15px;
+  width: 45%;
+  color: white;
+}
+.red {
+  color: red;
+}
+aside form fieldset {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #1a237e;
+  padding: 5px 15px;
+}
+aside form input, aside form select {
+  background-color: #0d47a1;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+}
+aside form select {
+  float: left;
+  width: 40%;
+  box-sizing: border-box;
+  height: 24px;
+  font-size: 14px;
+  color: white;
+}
+aside form fieldset:nth-child(1) {
+  position: absolute;
+  top: -150px;
+  height: 300px;
+}
+aside form fieldset:nth-child(1) input[type="text"],
+aside form fieldset:nth-child(1) input[type="password"] {
+  width: 70%;
+  box-sizing: border-box;
+  height: 35px;
+  margin-left: 15%;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+aside form fieldset:nth-child(2) {
+  position: absolute;
+  top: 160px;
+  height: 110px;
+  padding: 15px;
+}
+aside form fieldset:nth-child(2) input {
+  width: 70%;
+  box-sizing: border-box;
+  height: 35px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 15%;
+}
+aside form fieldset legend {
+  font-weight: bold;
+  letter-spacing: -0.5px;
+}
+aside form fieldset label {
+  display: block;
+}
+aside form fieldset label:not(.country) {
+  text-align: center;
+}
+aside form fieldset label.country {
+  text-indent: 50px;
+}
+aside form fieldset > p {
+  position: relative;
+  bottom: 15px;
+  left: 70px;
+}
+aside form fieldset div.check {
+  width: 55%;
+  height: 23%;
+  box-sizing: border-box;
+  float: left;
+  margin-left: 15px;
+  margin-right: -20px;
+  margin-top: -15px;
+  background-color: #0d47a1;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+}
+label.checkbox {
+  display: block;
+  padding: 2px;
+  cursor: pointer;
+}
+label.one {
+  text-indent: -160px;
+}
+label.two {
+  text-indent: -130px;
+}
+label.three {
+  text-indent: -150px;
+}
+input[type="checkbox"] {
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+  float: left;
+  clear: left;
+  cursor: pointer;
+}
+input[type="text"], input[type="password"] {
+  text-align: center;
+}
+input[type="submit"], input[type="reset"] {
+  position: absolute;
+  bottom: -320px;
+  width: 49%;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+input[type="reset"] {
+  left: 51%;
+  background-color: rgba(183, 28, 28, 0.8);
+}
+input[type="reset"]:hover {
+  color: rgba(183, 28, 28, 1);
+  background-color: rgba(255, 255, 255, 0.8);
+}
+input[type="submit"] {
+  background-color: rgba(100, 221, 23, 0.8);
+}
+input[type="submit"]:hover {
+  color: rgba(100, 221, 23, 1);
+  background-color: rgba(255, 255, 255, 0.8);
+}
+footer {
+  height: 100px;
+}
+footer > ul {
+  display: flex;
+  padding-top: 10px;
+}
+footer > ul > li {
+  color: white;
+}
+footer > ul > li > ul.links {
+  width: 260px;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+footer > ul > li > ul.links > li{
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+footer > ul > li > p {
+  width: 500px;
+  box-sizing: border-box;
+  text-align: center;
+  text-align-last: center;
+  font-size: 14px;
+}
+footer > ul > li:last-child {
+  width: 200px;
+  box-sizing: border-box;
+}
+footer > ul > li > ul.social-networks {
+  display: inline-flex;
+  justify-content: center;
+  margin-left: 15px;
+  margin-top: 25px;
+}
+footer > ul > li > ul.social-networks > li {
+  width: 42px;
+  height: 42px;
+  border-radius: 42px;
+  border: 2px solid grey;
+  margin-right: 15px;
+  cursor: pointer;
+  background-image: url('../../Resources/images/mini-social-icons.png');
+}
+footer > ul > li > ul.social-networks > li:nth-child(1) {
+  background-position: 0 0;
+}
+footer > ul > li > ul.social-networks > li:nth-child(2) {
+  background-position: -42px 0;
+}
+footer > ul > li > ul.social-networks > li:nth-child(3) {
+  background-position: 42px 0;
+}
+footer > ul > li > ul.social-networks > li:nth-child(1):hover {
+  background-position: 0 -42px;
+}
+footer > ul > li > ul.social-networks > li:nth-child(2):hover {
+  background-position: -42px -42px;
+}
+footer > ul > li > ul.social-networks > li:nth-child(3):hover {
+  background-position: 42px -42px;
+}

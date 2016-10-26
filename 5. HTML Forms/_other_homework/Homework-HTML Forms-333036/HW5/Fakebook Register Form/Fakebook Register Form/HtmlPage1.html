@@ -1,0 +1,187 @@
+﻿
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <title>Fakebook Register Form</title>
+
+    <meta charset="utf-8" />
+
+  
+    <link href="StyleSheet1.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <header>
+
+            <h1>fakebook</h1>
+
+            <h5>Registration</h5>
+
+            <p>It is safe and it will always be!</p>
+
+        </header>
+
+        <article>
+
+            <form method="get" action="form.php">
+
+                <ul>
+
+                    <li>
+
+                        <fieldset id="left">
+
+                            <legend>None-Important Information</legend>
+
+                            <ul>
+
+                                <li><input type="text" placeholder="First Name" pattern="[a-zA-Z ]{3,}" required /></li>
+
+                                <li><input type="text" placeholder="Last Name" pattern="[a-zA-Z ]{3,}" required /></li>
+
+                                <li><input type="email" placeholder="Your Email" pattern="\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b." required /></li>
+
+                                <li><input type="tel" placeholder="Phone Numbere" pattern="^([0|\+[0-9]{1,5})?([1-9][0-9]{9})$" /></li>
+
+                                <li><input type="password" placeholder="YourPassword" pattern="[a-zA-Z0-9 ]{6,}" required /></li>
+
+                                <li><input type="url" placeholder="Website" pattern="(http://|https://)(www.)?([a-zA-Z0-9]+).[a-zA-Z0-9]*.[a-z]{3}.?([a-z]+)?" required /></li>
+
+                                <li>
+
+                                    <label>Birthday</label><br />
+
+                                    <input id="bd" type="datetime-local" />
+
+                                </li>
+
+                                <li>
+
+                                    <ul id="nested">
+
+                                        <li><input class="row" type="radio" name="gender" value="male" />Male</li>
+
+                                        <li><input class="row" type="radio" name="gender" value="female" />Female</li>
+
+                                        <li><input class="row" type="radio" name="gender" value="other" checked />Other</li>
+
+                                    </ul>
+
+                                </li>
+
+                            </ul>
+
+                        </fieldset>
+
+                    </li>
+
+                    <li><button type="reset" value="">Clear form</button></li>
+
+                </ul>
+
+            </form>
+
+        </article>
+
+        <article>
+
+            <form method="get" action="form.php">
+
+                <ul>
+
+                    <li>
+
+                        <fieldset id="right">
+
+                            <legend>None-Important Information</legend>
+
+                            <ul>
+
+                                <li>
+
+                                    <select>
+
+                                        <option selected value="1">Country</option>
+
+                                        <option value="1">Bulgaria</option>
+
+                                        <option value="1">France</option>
+
+                                        <option value="1">Germany</option>
+
+                                    </select>
+
+                                </li>
+
+                                <li><input type="text" placeholder="Village" /></li>
+
+                                <li><input type="text" placeholder="District" /></li>
+
+                                <li><input type="text" placeholder="Street" pattern="^([0|\+[0-9]{1,5})?([1-9][0-9]{9})$" /></li>
+
+                                <li><input class="addres" type="number" placeholder="Nr" required /></li>
+
+                                <li><input class="addres" type="number" placeholder="Floor" required /></li>
+
+                                <li><input class="addres" type="number" placeholder="ApNr" required /><br /></li>
+
+                                <li>
+
+                                    <label>Door Color</label><br />
+
+                                    <input type="color" />
+
+                                </li>
+
+                                <li><input type="text" placeholder="Whater Metter Nr" /></li>
+
+                                <li>
+
+                                    <select>
+
+                                        <option selected value="1">Aunt Panties'Size</option>
+
+                                        <option value="1">Bulgaria</option>
+
+                                        <option value="1">France</option>
+
+                                        <option value="1">Germany</option>
+
+                                    </select><br />
+
+                                </li>
+
+                                <li>
+
+                                    <label>More Personal informations</label><br />
+
+                                    <textarea placeholder="Give Us More Information!!!"></textarea>
+
+                                </li>
+
+                            </ul>
+
+                        </fieldset>
+
+                    </li>
+
+                    <li><button type="submit" value="register">Register</button></li>
+
+                </ul>
+
+            </form>
+
+        </article>
+
+    </div>
+
+</body>
+
+</html>

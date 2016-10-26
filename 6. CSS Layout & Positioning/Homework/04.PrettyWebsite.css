@@ -1,0 +1,148 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial;
+    background: #181818;
+}
+
+#main-wrapper {
+    position: relative;
+    width:900px;
+    top:0px;
+    right:0px;
+    bottom: 0px;
+    left: 0px;
+    margin:auto;
+    background: #F0F0F0;
+}
+
+#cover-photo-header {
+    position: relative;
+    height: 270px;
+    background-image: url('resources/headerBackground.jpg');
+}
+
+header#cover-photo-header h2 {
+    position: absolute;
+    bottom:40px;
+    right:60px;
+    color:#fff;
+}
+
+nav#main-navig {
+    height: 45px;
+    background-color: #D8D8D8;
+}
+
+nav#main-navig ul li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    line-height: 45px;
+    border-right:2px solid white;
+}
+
+nav#main-navig ul li a {
+    text-decoration: none;
+    display:block;
+    width:120px;
+    height: 45px;
+    background-color: #D8D8D8;
+    color:#888888;
+}
+
+nav#main-navig ul li a:hover {
+    background: #A0A0A0;
+    color: #303030;
+}
+
+main#content {
+    display: inline-block;
+    width:550px;
+    margin:10px 40px
+}
+
+section#welcome-banner, #free-products {
+    border:2px solid #C0C0C0;
+    border-radius: 10px;
+    background-color: #F0F0F0;
+    padding:15px;
+}
+
+section#welcome-banner {margin-bottom: 10px;}
+
+    h3 {
+        color:#33CC00;
+        margin-bottom: 15px;
+    }
+
+    section#welcome-banner p, article p {
+        font-size:15px;
+    }
+
+article.product-box {
+    height: 125px;
+    padding-left: 164px;
+    padding-top:10px;
+}
+
+section#free-products #find-me {
+    background-image: url('resources/0005.jpg');
+    background-repeat: no-repeat;
+}
+
+section#free-products #meet {
+    background-image: url('resources/0004.jpg');
+    background-repeat: no-repeat;
+}
+
+section#free-products #skate {
+    background-image: url('resources/0003.jpg');
+    background-repeat: no-repeat;
+}
+
+
+
+#side-asides {
+    display: inline-block;
+    vertical-align: top;
+    width:230px;
+    font-size:15px;
+}
+
+aside#news-box, #message-box  {
+    width:200px;
+    border:2px solid #C0C0C0;
+    border-radius: 10px;
+    background-color: #A0A0A0;
+    padding: 10px;
+    margin-top:10px;
+}
+
+#side-asides time {
+    display: block;
+    font-weight: bold;
+}
+
+#side-asides span {
+    display: block;
+}
+
+#message-box {
+    background:#F0F0F0;
+}
+
+#side-asides a {
+    color:#33CC00;
+}
+
+footer {
+    height: 100px;
+    background:#00FF33;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100px;
+}

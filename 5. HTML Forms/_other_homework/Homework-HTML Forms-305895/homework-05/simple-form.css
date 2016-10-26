@@ -1,0 +1,122 @@
+body, div, head, section, article, footer, h1, h2, h3, p, img, 
+ul, li, ol, table, th, tr, td, a {
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #808080;
+}
+
+/*-- color: #234465; #eee --*/
+
+#wrapper {
+	width: 470px;
+	background-color: #eee;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+.clear:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+h1 {
+	color: #234465;
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+
+#wrapper > p {
+	margin-bottom: 15px;
+}
+
+section {
+	width: 46%;
+	float: left;
+	padding: 2%;
+}
+
+section.right {
+	background-color: #234465;
+}
+
+h2 {
+	font-size: 12px;
+	color: #404040;
+	margin-bottom: 10px;
+}
+
+span.color {
+	color: #234465;
+}
+
+input {
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+input.leftButton{
+	width: 50%;
+	padding: 3px;
+	float: right;
+	color: #234465;
+	border: 1px groove #234465;
+	background-color: rgba(255,255,255,.8);
+}
+
+input.leftButton:hover {
+	background-color: rgba(35,68,100,.4);
+	color: #333;
+	cursor: pointer;
+}
+
+h2.rightHeader {
+	color: #fff;
+}
+
+form aside.aside-left {
+	width: 48%;
+	float: left;
+}
+
+form aside.aside-left  p {
+	font-size: 11px;
+	display: inline-block;
+	color: #fff;
+
+}
+
+input[type=checkbox] {
+	width: 0;
+}
+
+form aside.aside-right {
+	width: 48%;
+	float: right;
+}
+
+input.rightButton {
+	padding: 3px;
+	color: #234465;
+	border: 1px groove #bf821e;
+	background-color: #fff;
+}
+
+input.rightButton:hover {
+	background-color: rgba(255,255,255,.4);
+	color: #fff;
+	cursor: pointer;
+}
+a {
+	color: #fff;
+	font-size: 10px;
+	margin-left: 25px;
+}
+
+input.none {
+	visibility: hidden;
+}

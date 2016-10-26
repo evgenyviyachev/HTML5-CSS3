@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Html Form</title>
+    <link rel="stylesheet" href="03html-form.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="header">
+        Step 1: Your details
+      </div>
+      <form class="" action="index.html" method="post">
+        <div class="block">
+          <label class="label" for="Name">Name</label>
+          <input class="input" type="text" name="Name" value="" placeholder="First and last name">
+        </div>
+        <div class="block">
+          <label class="label" for="Name">Email</label>
+          <input class="input" type="text" name="Name" value=""
+          placeholder="example@domain.com">
+        </div>
+        <div class="block">
+          <label class="label" for="Name">Phone</label>
+          <input class="input" type="text" name="Name" value=""
+          placeholder="eg. +447500000000">
+        </div>
+      </form>
+      <div class="header">
+        Step 1: Delivery address
+      </div>
+      <form class="" action="index.html" method="post">
+        <div class="block">
+          <label id="address" class="label" for="Address">Address</label>
+          <textarea class="input" name="Address" rows="8" cols="40" autofocus="autofocus"></textarea>
+        </div>
+        <div class="block">
+          <label class="label" for="post">Post code</label>
+          <input class="input" type="text" name="post" value="">
+        </div>
+        <div class="block">
+          <label class="label" for="country">Country</label>
+          <input class="input" type="text" name="country" value="">
+        </div>
+      </form>
+      <div class="header">
+        Step 1: Card details
+      </div>
+      <form class="" action="index.html" method="post">
+        <div class="block">
+          <label class="label" for="card-type">Card type</label>
+          <div class="radio-button">
+            <input type="radio" name="card-type">
+            <img style="width: 30px; height: 20px; vertical-align: bottom;" src="resources/visa.png" alt="" />VISA
+            <input type="radio" name="card-type">
+            <img style="width: 30px; height: 20px; vertical-align: bottom;" src="resources/amex-logo.png" alt="" />AmEx
+            <input type="radio" name="card-type">
+            <img style="width: 30px; height: 20px; vertical-align: bottom;" src="resources/mastercard_logo.png" alt="" />Mastercard
+          </div>
+        </div>
+        <div class="block">
+          <label class="label" for="cardNumber">Card number</label>
+          <input class="input" type="text" name="cardNumber" value="">
+        </div>
+        <div class="block">
+          <label class="label" for="security">Security code</label>
+          <input class="input" type="text" name="security" value="">
+        </div>
+        <div class="block">
+          <label class="label" for="Name">Name on card</label>
+          <input class="input" type="text" name="Name" value=""
+          placeholder="exact name as on the card">
+        </div>
+      </form>
+      <button type="button" name="button">BUY IT!</button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+/*-- colors: yellow (250,200,20), green (0,146,62) --*/
+
+body, div, head, section, article, footer, h1, h2, h3, p, img, 
+ul, li, ol, table, th, tr, td {
+	margin: 0;
+	padding: 0;
+}
+
+/*-- wrapper --*/
+
+#wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 50px;
+	background-color: rgb(0,146,62);
+}
+
+#fond {
+	border: 2px solid #000;
+	display: block;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+/*-- table --*/
+
+
+table {
+	width: 101%;
+	border-collapse: collapse;
+	background-color: #fff;
+	margin: -5px;
+	font-family: verdana, sans-serif;
+	text-align: center;
+	font-size: 14px;
+	
+}
+
+td, tr, th {
+	border: 2px solid #000;
+	padding: 15px 10px;
+}
+
+table tr.right, table td.right, table th.right {text-align: right;}
+table tr.left, table td.left, table th.left {text-align: left;}	
+
+
+
+form {
+	display: inline-block;
+}
+
+form input[type=number] {
+	width: 50px;
+}
+
+
+
+img {
+	width: 25px;
+	vertical-align: middle;
+}
+
+/*--color--*/
+
+tr:nth-child(odd) {
+	background-color: #eee;
+}
+
+tr.top {
+	background-color: rgb(250,200,20);
+}
+
+form.form-red  input{
+	color: #ff0000;
+}
+
+form.form-green  input{
+	color: #00ff00;
+}
+
+form.red-b input , form.green-b input{
+	background-color: #ff0000;
+	border: 1px solid #b2b2b2;
+	border-radius: 50%;
+	padding: 6px;
+	font-size: 10px;
+	font-weight: bold;
+	color: #fff;
+	cursor: pointer;
+}
+
+form.green-b input {background-color: rgb(0,146,62);}

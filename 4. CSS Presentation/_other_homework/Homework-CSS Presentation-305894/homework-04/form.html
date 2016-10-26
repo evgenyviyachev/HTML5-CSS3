@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+	<head>
+		<title>HTML Form...</title>
+		<link rel="stylesheet" type="text/css" href="form.css"/>
+		<meta charset="UTF-8"/>
+	</head>
+	
+<body>
+	<div id="wrapper">
+
+	<form id="first-form">
+	
+		<h3>Step 1: Your details</h3>
+		
+		<label>
+			<span>Name</span>
+			<input type="text" placeholder="First and last name" name="name"/>
+		</label>
+		
+		<label>
+			<span>Email</span>
+			<input type="email" placeholder="example@domain.com" name="email"/>
+		</label>
+		
+		<label>
+			<span>Phone</span>
+			<input type="text" placeholder="eg. +447500000000" name="phone"/>
+		</label>
+		
+		<h3>Step 2: Delivery address</h3>
+		
+		<label>
+			<span>Address</span>
+			<textarea placeholder="Message..." name="textarea"></textarea>
+		</label>
+		
+		<label>
+			<span>Post code</span>
+			<input type="text"  name="post"/>
+		</label>
+		
+		<label>
+			<span>Country</span>
+			<select name="selection">
+				<option value="Bulgaria">Bulgaria</option>
+				<option value="---">---</option>
+			</select>
+		</label>
+	
+		<h3>Step 3: Card details</h3>
+		
+		<label>
+			<p>card type</p>
+			<hr/>
+			
+			<input type="radio" name="card"/>
+			<img src="images/visa.png"/> VISA
+			
+			
+			<input type="radio" name="card"/>
+			<img src="images/amex.png"/> AmEx
+			
+			
+			<input type="radio" name="card"/>
+			<img src="images/master.png"/> Mastercard
+		
+		</label>
+		
+		<label>
+			<span>Card number</span>
+			<input type="text" name="card-n"/>
+		</label>
+		
+		<label>
+			<span>Security code</span>
+			<input type="text" name="code"/>
+		</label>
+		
+		<label>
+			<span>Name on card</span>
+			<input type="text" name="card-name" placeholder="exact name as on the card"/>
+		</label>
+		
+		<label>
+			<input type="button" name="button" value="BUY IT!">
+		</label>
+	</form>
+	
+	</div>
+
+</body>
+
+</html>

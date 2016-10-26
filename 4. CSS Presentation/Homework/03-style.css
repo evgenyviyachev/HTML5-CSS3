@@ -1,0 +1,82 @@
+/* #### Dark Matter #### */
+.dark-matter {
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    background: url("resources/formBackground.jpg") repeat;
+    padding: 10px 10px 10px 10px;
+    font: 12px Arial, sans-serif;
+    border:none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    opacity: 0.9;
+}
+.dark-matter h1 {
+    font: 16px Arial, sans-serif;
+    padding-left: 10px;
+    display: block;
+    color: white;
+    opacity: 0.9;
+}
+.dark-matter label:not(#buy) {
+    display: block;
+    margin: 0px 0px 5px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.dark-matter label>span {
+    float: left;
+    width: 80px;
+    text-align: left;
+    padding-left: 10px;
+    margin-top: 15px;
+    color: black;
+    font-weight: lighter;
+}
+.dark-matter input[type="text"], .dark-matter input[type="email"], .dark-matter input[type="tel"], .dark-matter textarea {
+    border: none;
+    color: black;
+    height: 16px;
+    margin-bottom: 8px;
+    margin-right: 6px;
+    margin-top: 8px;
+    outline: 0 none;
+    padding: 6px 12px;
+    width: 55%;
+    font: normal 14px/14px Arial, sans-serif;
+    border-radius: 3px;
+}
+.dark-matter input[type="radio"] {
+  border: none;
+  color: black;
+  height: 16px;
+  margin-bottom: 8px;
+  margin-right: 10px;
+  margin-top: 8px;
+  font: normal 14px/14px Arial, sans-serif;
+}
+.dark-matter textarea {
+    height:100px;
+}
+.dark-matter .button {
+    margin-left: 160px;
+    background: #0d47a1;
+    border: none;
+    padding: 5px 25px 5px 25px;
+    color: white;
+    margin-top: 5px;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+.dark-matter input[type="radio"]:focus, .dark-matter input[type="text"]:focus, .dark-matter input[type="email"]:focus, .dark-matter input[type="tel"]:focus, .dark-matter textarea:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+img {
+  margin-right: 5px;
+  margin-left: -5px;
+  width: 25px;
+  height: auto;
+}

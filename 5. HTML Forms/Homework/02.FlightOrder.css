@@ -1,0 +1,70 @@
+#wrapper {
+  width: 400px;
+  height: 315px;
+  background-color: #f8bbd0;
+  font-style: oblique;
+}
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px;
+  padding-bottom: 0;
+}
+.table {
+  display: table;
+  margin: auto;
+  width: 95%;
+}
+.table-row {
+  display: table-row;
+}
+.table-cell {
+  display: table-cell;
+}
+.half {
+  width: 50%;
+}
+.quarter {
+  width: 25%;
+}
+.sixth {
+  width: 16%;
+  padding: 3px;
+}
+label {
+  display: block;
+  text-align: left;
+}
+input, select {
+  width: 95%;
+}
+select {
+  display: block;
+  height: 21px;
+}
+input[type="checkbox"] {
+  display: none;
+  cursor: pointer;
+}
+input[type="checkbox"] + label:before {
+  content: "";
+  display: inline-block;
+  height: 15px;
+  margin: -1px 4px 0 0;
+  vertical-align: middle;
+  width: 15px;
+  background:url("images/chrome-style.png") left top no-repeat;
+}
+input[type="checkbox"]:checked + label:before {
+  background:url("images/chrome-style.png") left bottom no-repeat;
+}
+label {
+  font-size: 14px;
+  margin: 2px;
+}
+input[type="button"] {
+  width: 48%;
+  margin-left: 190px;
+  margin-top: 5px;
+  height: 30px;
+}

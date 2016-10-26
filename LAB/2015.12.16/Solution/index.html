@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>UEFA</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <div>
+          <a href="http://www.uefa.com" target="_blank">
+            <img src="../Resources/images/uefa-logo.png" alt="logo" />
+          </a>
+        </div>
+        <nav>
+          <ul>
+            <li>Home</li>
+            <div class="dropdown">
+              <button class="dropbtn">
+                <li class="hover-full">
+                  UEFA Champions League
+                </li>
+              </button>
+              <div id="myDropdown" class="dropdown-content">
+                <a href="#">Teams</a>
+                <a href="#">Standings</a>
+                <a href="#">Statistics</a>
+                <a href="#">Finals</a>
+                <a href="#">History</a>
+              </div>
+            </div>
+            <li>UEFA Europa League</li>
+            <li>Team of the year</li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section>
+          <p>Group E</p>
+          <table>
+            <thead>
+              <tr>
+                <th class="first-col">&#35;</th>
+                <th class="second-col">Team</th>
+                <th class="third-col">W</th>
+                <th class="third-col">D</th>
+                <th class="third-col">L</th>
+                <th class="fourth-col">Points</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="first-row">
+                <td class="bold">1</td>
+                <td class="left bold">FC Barcelona</td>
+                <td>4</td>
+                <td>2</td>
+                <td>0</td>
+                <td class="bold">14</td>
+              </tr>
+              <tr class="second-row">
+                <td class="bold">2</td>
+                <td class="left bold">AS Roma</td>
+                <td>1</td>
+                <td>3</td>
+                <td>2</td>
+                <td class="bold">6</td>
+              </tr>
+              <tr class="third-row">
+                <td class="bold italic">3</td>
+                <td class="left bold italic">Bayer 04 Leverkusen</td>
+                <td>1</td>
+                <td>3</td>
+                <td>2</td>
+                <td class="bold italic">6</td>
+              </tr>
+              <tr class="fourth-row">
+                <td>4</td>
+                <td class="left">FC Bate Borisov</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>5</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section class="article">
+          <div>New sponsors</div>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+          <article>
+            The president of UEFA announced the newly signed
+            sponsors of UEFA Champions League. The new sponsors
+            will bring to the tournament <span>Read more...</span>
+          </article>
+          <footer>
+            <span>Written by Unknown Author /</span> 16.12.2015
+          </footer>
+        </section>
+        <aside>
+          <form action="#" method="get">
+            <fieldset>
+              <legend>Register new sponsor</legend>
+              <label for="company">Comapny<span class="red">*</span></label>
+              <input type="text" name="company" placeholder="Enter your company name" id="company" />
+              <label for="pass">Password<span class="red">*</span></label>
+              <input type="password" name="pass" id="pass" />
+              <label for="pass">Confirm password<span class="red">*</span></label>
+              <input type="password" name="pass" id="pass" />
+              <label class="country" for="country">Country</label>
+              <select name="country" id="country">
+                <optgroup label="Africa">
+                  <option value="Benin">Benin</option>
+                  <option value="Niger">Niger</option>
+                </optgroup>
+                <optgroup label="Asia">
+                  <option value="China">China</option>
+                  <option value="Japan">Japan</option>
+                  <option value="Russia">Russia</option>
+                  <option value="Qatar" selected="selected">Qatar</option>
+                </optgroup>
+                <optgroup label="Europe">
+                  <option value="Bulgaria">Bulgaria</option>
+                  <option value="England">England</option>
+                  <option value="France">France</option>
+                </optgroup>
+              </select>
+              <p>Business field</p>
+              <div class="check">
+                <label class="checkbox one"><input type="checkbox" name="business" value="Oil" />Oil</label>
+                <label class="checkbox two"><input type="checkbox" name="business" value="Airlines" />Airlines</label>
+                <label class="checkbox three"><input type="checkbox" name="business" value="Gold" />Gold</label>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend>What do you offer?</legend>
+              <input type="text" name="offer" id="offer" />
+              <label for="offer">* in million dolars</label>
+            </fieldset>
+            <input type="submit" name="submit" value="Submit" />
+            <input type="reset" name="reset" value="Reset" />
+          </form>
+        </aside>
+      </main>
+      <footer>
+        <ul>
+          <li>
+            <ul class="links">
+              <li>Home</li>
+              <li>UEFA Champions League</li>
+              <li>UEFA Europa League</li>
+              <li>Team of the year</li>
+            </ul>
+          </li>
+          <li>
+            <p>
+              &#169; 1998-2015 UEFA. All rights reserved.
+              <br /><br />
+              The UEFA word, the UEFA logo and all marks
+              related to UEFA competitions, are protected by
+              trade marks and/or copyright of UEFA. No use for
+              commercial purposes may be made of such trade marks.
+              Use of UEFA.com signifies your agreement to the Terms
+              and Conditions and Privacy Policy.
+            </p>
+          </li>
+          <li>
+            <ul class="social-networks">
+              <li class="circle"></li>
+              <li class="circle"></li>
+              <li class="circle"></li>
+            </ul>
+          </li>
+      </footer>
+    </div>
+  </body>
+</html>

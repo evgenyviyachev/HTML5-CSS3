@@ -1,0 +1,51 @@
+﻿body {
+    margin: 0, auto;
+    font-family: Calibri,serif;
+}
+
+#wrapper {
+    margin: auto;
+    max-width: 500px;
+    max-height: 400px;
+    border: 1px solid black;
+    background: rgb(255,192,203);
+}
+
+h1 {
+    text-align: center;
+    font-family: Aharoni, serif;
+    font-style: italic;
+    font-size: 2em;
+}
+
+ul, li {
+    display: inline-block;
+    margin: 4px;
+}
+
+label, option, select, #date {
+    width: 200px;
+}
+
+select, option {
+    padding: 2px;
+}
+
+label {
+    font-style: italic;
+}
+
+#checkbox {
+    margin-left: 210px;
+}
+
+#time{
+    margin: 2px;
+}
+
+#button {
+    width: 200px;
+    margin-left: 220px;
+    margin-bottom: 5px;
+    padding: 2px;
+}

@@ -1,0 +1,109 @@
+@font-face {
+	src: url(fonts/mille.ttf);
+	font-family: mille;
+}
+
+body, div, head, section, article, footer, h1, h2, h3, p, img, 
+ul, li, ol, table, th, tr, td, fieldset, form {
+	margin: 0;
+	padding: 0;
+	color: #2c425a;
+}
+
+#wrapper {
+	width: 550px;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+.clear::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+section {
+	float: left;
+}
+
+section#sLeft {
+	width: 372px;
+	margin-right: 3px;
+}
+
+article {
+	float: left;
+	width: 108px;
+	height: 150px;
+	position: relative;
+	border: 2px groove #fff;
+	border-radius: 5px;
+	border-bottom-right-radius: 0;
+	margin: 1px;
+	padding: 5px;
+	background-color: #e9f8cf;
+}
+
+h1 {
+	font-family: mille;
+	margin-bottom: 10px;
+}
+
+h3 {
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+p {
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+img {
+	display: block;
+	margin: 5px auto;
+}
+
+img.logo {
+	position: absolute;
+	left: 0;
+	top: 40px;
+}
+
+p.btn {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-color: #2c425a;
+	padding: 8px;
+	color: #fff;
+	border-top-left-radius: 5px;
+}
+
+section#sRight {
+	width: 141px;
+	height: 362px;
+	background-color: #e9f8cf;
+	border: 2px groove #fff;
+	border-radius: 2px;
+	padding: 0 3px;
+}
+
+input {
+	margin: 0;
+	padding: 0;
+	width: 133px;
+	margin-bottom: 8px;
+}
+
+p.price {
+	text-align: center;
+}
+
+p.fLeft {
+	float: left;
+}
+
+p.fRight {
+	float: right;
+}

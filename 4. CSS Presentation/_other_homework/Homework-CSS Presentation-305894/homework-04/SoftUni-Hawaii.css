@@ -1,0 +1,51 @@
+@font-face {
+	font-family: animated;
+	src: url(fonts/Animated.ttf);
+}
+	
+body, div, head, section, article, footer, h1, h2, h3, p, img, 
+ul, li, ol, table, th, tr, td {
+	margin: 0;
+	padding: 0;
+	font-family: verdana, ariel, sans-serif;
+}
+
+#wrapper {
+	width: 880px;
+	height: 580px;
+	margin: 0 auto;
+	box-shadow: 3px 3px 5px #11555f;
+	background: url(images/back.png),radial-gradient(closest-side at 30% 40%, #fff, #21a8bb);
+	background-repeat: no-repeat;
+	padding: 10px;
+	position: relative;
+}
+
+h1 {
+	font-family: animated;
+	color: #ffbd20;
+	font-size: 40px;
+	text-align: right;
+}
+
+img {
+	width: 100%;
+}
+
+
+
+#vladoG, #petia, #tedi, #nakov, #alex, #vladoK {
+	float: left;
+	width: 25%;
+	position: absolute;
+}
+
+#vladoG {top: 200px;left: 80px;}
+#petia{top: 220px;left: 200px;}
+#tedi {top: 390px;left: 270px; width: 15%; z-index:10;}
+#nakov {top: 160px;left: 390px;}
+#alex {top: 200px;left: 500px;}
+#vladoK {top: 200px;left: 630px;}
+
+
+

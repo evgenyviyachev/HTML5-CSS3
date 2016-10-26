@@ -1,0 +1,120 @@
+/*-- colors: yellow (250,200,20), green (0,146,62) --*/
+@font-face {
+	font-family: type-ra;
+	src: url(fonts/type-ra.ttf);
+}
+
+body, div, head, section, article, footer, h1, h2, h3, p, img, 
+ul, li, ol, table, th, tr, td {
+	margin: 0;
+	padding: 0;
+}
+
+/*-- wrapper --*/
+
+#wrapper {
+	width: 340px;
+	padding: 8px;
+	margin: 0 auto;
+	background-color: #8b9579;
+	outline: 1px groove #8b9579;
+	outline-offset: 1px;
+}
+
+.clear::after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+h1 {
+	font-family: type-ra;
+	color: #fff;
+	text-align: center;
+}
+
+section {
+	width: 50%;
+	box-sizing: border-box;
+	float: left;
+}
+
+form {
+	padding: 3px;
+}
+
+input, select {
+	padding: 3px;
+	border: 1px solid #eee;
+	color: #333;
+}
+
+label, input{
+	display: block;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+
+label {
+	color: #fff;
+	font-family: type-ra;
+	font-size: 14px;
+}
+
+input, select, #smallCheck{
+	width: 100%;
+	box-sizing: border-box;
+	margin-bottom: 5px;
+}
+
+.one-third {
+	width: 32%;
+	margin-right: 1%;
+	float: left;
+}
+
+.one-third:last-child {
+	float: right;
+	margin: 0;
+}
+
+input[type=checkbox] {
+	width: 0;
+	display: iline-box;
+	float: left;
+}
+
+label.direct {
+	display: inline-block;
+	float: left;
+}
+
+section#right input[type=time] {
+	width: 48%;
+	float: left;
+	margin-right: 2%;
+}
+section#right input[type=date] {
+	width: 48%;
+	float: left;
+	margin-right: 2%;
+}
+
+select#city {
+	margin-bottom: 32px;
+}
+
+input[type=submit] {
+	font-family: type-ra;
+	font-size: 20px;
+	padding: 0;
+	border: 1px groove #555;
+	margin-top: 10px;
+}
+
+input[type=submit]:hover {
+	cursor: pointer;
+	background-color: rgba(255,255,255,.5);
+	color: #fff;
+}

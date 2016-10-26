@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>test</title>
+    <style>
+    p{
+margin:1.5em 0;
+padding:0;
+text-align:justify;
+}
+input[type="checkbox"],input[type="radio"]{
+display:none;
+}
+input[type="checkbox"]+label,input[type="radio"]+label{
+cursor:pointer;
+}
+input[type="checkbox"]+label:before,input[type="radio"]+label:before{
+content:"";
+display:inline-block;
+height:19px;
+margin:-1px 4px 0 0;
+vertical-align:middle;
+width:19px;
+}
+input[type="checkbox"]+label:before{
+background:url(http://d3pr5r64n04s3o.cloudfront.net/tuts/391_checkboxes/check_radio_sheet.png)left top no-repeat;
+}
+input[type="checkbox"]:checked+label:before{
+background:url(http://d3pr5r64n04s3o.cloudfront.net/tuts/391_checkboxes/check_radio_sheet.png)-19px top no-repeat;
+}
+input[type="radio"]+label:before{
+background:url(http://d3pr5r64n04s3o.cloudfront.net/tuts/391_checkboxes/check_radio_sheet.png)-38px top no-repeat;
+}
+input[type="radio"]:checked+label:before{
+background:url(http://d3pr5r64n04s3o.cloudfront.net/tuts/391_checkboxes/check_radio_sheet.png)-57px top no-repeat;
+}
+input[type="checkbox"]:checked+label,input[type="radio"]:checked+label{
+font-weight:bold;
+}
+p.external{
+background:#000;
+border-radius:5px;
+color:#fff;
+margin:0 auto;
+padding:10px;
+text-align:center;
+width:380px;
+}
+p.external a,p.external a:visited{
+color:#9Ef;
+}
+    </style>
+  </head>
+  <body>
+    <p>
+       <input id="c1" type="checkbox" name="cc">
+       <label for="c1">Checkbox 1</label>
+     </p>
+     <p>
+       <input id="c2" type="checkbox" name="cc">
+       <label for="c2">Checkbox 2</label>
+     </p>
+     <p>
+       <input id="r1" type="radio" name="rb">
+       <label for="r1">Radio Button 1</label>
+     </p>
+     <p>
+       <input id="r2" type="radio" name="rb">
+       <label for="r2">Radio Button 2</label>
+     </p>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styleIndex5.2.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+          FLIGHT ORDER  
+        </header>
+        <form class="from" action="">
+            <p>From</p>
+            <input type="text" placeholder="eneter a city" name="fromcity">
+            <br><br>
+            <p>Departure Date</p>
+            <input type="date" name="depdate">
+            <p>Return Date</p>
+            <input type="date" name="retdate">
+            <p>12+</p>
+            <p>2-12</p>
+            <p>0-2</p>
+            <!-- <input type="number"> -->
+            <!-- <input type="number"> -->
+            <!-- <input type="number"> -->
+            <select name="kids12+">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <select name="kids2-12">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <select name="kids0-2">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </form>
+        <form class="to" action="">
+            <p>To</p>
+            <input type="text" placeholder="eneter a city" name="tocity">
+            <input type="checkbox" name="check"> Prefer directs
+            <p>Time interval</p>
+            <input type="time" name="timefrom">
+            <input type="time" name="timeto">
+            <p>Time interval</p>
+            <input type="time" name="timefromret">
+            <input type="time" name="timetoret">
+            <p>Choose class</p>
+            <!-- <input type="text" name="class"> -->
+            <select name="classs">
+                <option value="0">Economy</option>
+                <option value="1">Normal</option>
+                <option value="2">Business</option>
+                <option value="3">VIP</option>
+            </select>
+        </form>
+        <input class="btn" type="button" value="Search" name="button">
+    </div>
+</body>
+</html>

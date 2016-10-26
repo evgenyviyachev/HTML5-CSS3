@@ -1,0 +1,95 @@
+#mainFrame{
+    width: 600px;
+    height: 200px;
+    border-left: dashed 4px;
+    border-left-color: red;
+
+    border-top: dotted 4px;
+    border-top-color: yellow;
+
+    border-right: solid 10px;
+    border-right-color: green;
+
+    border-bottom: double 6px;
+    border-bottom-color: blue;
+
+    box-shadow: 13px 13px 13px 0px black;
+}
+h1{
+    text-align: center;
+    font-family: Arial serif;
+    text-shadow: 8px 8px 7px lightgray;
+    font-size: 2.4em;
+
+}
+#secondFrame{
+    width: 550px;
+    height: 80px;
+    border: 2px solid;
+    border-radius: 60px;
+    margin-left: 20px;
+    box-shadow:
+            0 0 0 2px red,
+            0 0 0 3px yellow,
+            0 0 0 5px green,
+            0 0 0 7px blue;
+}
+h2{
+    text-align: center;
+    font-size: 1.2em;
+    font-family: Arial serif;
+    text-shadow: 8px 8px 7px lightgray;
+}
+#buttons{
+    text-align: center;
+}
+#button1, #button2{
+    display: inline;
+    border: solid 1px;
+    border-color: darkorange;
+    background-color: darkorange;
+    box-shadow:
+            0 0 0 4px orange;
+    font-family: Arial serif;
+    font-weight: bold;
+}
+#button2{
+    margin: 7px;
+}
+#rectangle{
+    width: 90px;
+    height: 50px;
+    border: dashed 2px;
+    background-color: gray;
+    border-radius: 20px;
+    margin-left: 570px;
+    margin-top: -170px;
+    box-shadow: 0 0 0 5px rgba(80, 80, 80, 0.5);
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+    background: rgba(80, 80, 80, 0.5);
+    font-weight: bold;
+}
+#bigcircle{
+    width: 40px;
+    height: 40px;
+    border: dashed 2px;
+    background-color: gray;
+    border-radius: 30px;
+    box-shadow: 0 0 0 5px rgba(80, 80, 80, 0.5);
+    margin-left: 530px;
+    background: rgba(80, 80, 80, 0.5);
+}
+#smallcircle{
+    width: 25px;
+    height: 25px;
+    border: dashed 2px;
+    background-color: gray;
+    border-radius: 30px;
+    box-shadow: 0 0 0 5px rgba(80, 80, 80, 0.5);
+    margin-left: 460px;
+    background: rgba(80, 80, 80, 0.5);
+}
+
+

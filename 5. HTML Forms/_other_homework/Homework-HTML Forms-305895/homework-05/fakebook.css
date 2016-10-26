@@ -1,0 +1,117 @@
+@font-face {
+	src: url(fonts/galette-med.otf);
+	font-family: galette-med;
+}
+
+body, div, head, section, article, footer, h1, h2, h3, p, img, 
+ul, li, ol, table, th, tr, td, fieldset, form {
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	width: 520px;
+	margin: 0 auto;
+	background-color: #3c5a96;
+	padding: 15px;
+}
+
+.clear::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+header {
+	text-align: center;
+	color: #fff;
+	font-family: galette-med;
+	margin-bottom: 10px;
+}
+
+h1 {
+	font-size: 100px;
+}
+
+h3 {
+	font-size: 30px;
+	}
+
+section {
+	float: left;
+	box-sizing: border-box;
+}
+
+section#sectionLeft {
+	width: 200px;
+}
+
+section#sectionRight {
+	width: 300px;
+	float: right;
+}
+
+fieldset {
+	color: #fff;
+	font-size: 12px;
+	border-radius: 10px;
+	padding: 5px;
+	border: 1px groove #fff;
+	height: 210px;
+	margin-bottom: 15px;
+}
+
+input, select{
+	width: 90px;
+	padding: 3px 5px;
+	box-sizing: border-box;
+	border: 1px inset #eee;
+	border-radius: 3px;
+	margin-bottom: 3px;
+}
+
+label.block {
+	display: block;
+	margin: 5px 0;
+}
+
+input[type='radio'] {
+	width: 0;
+}
+
+input[type='number'] {
+	width: 50px;
+}
+
+input#birthday {
+	display: block;
+	width: 140px;
+}
+
+textarea {
+	border: 1px inset #eee;
+	border-radius: 3px;
+	margin-bottom: 3px;
+	width: 275px;
+	box-sizing: border-box;
+}
+
+input::-moz-placeholder,
+select::-moz-placeholder {
+	font-size: 10px;
+}
+
+input[type='submit'], input[type='reset'] {
+	width: 100%;
+	padding: 5px;
+	font-family: Tahoma, Arial, sans-serif;
+	font-weight: bold;
+	color: #fff;
+	background-color: #6b6b61;
+	border: 1px solid #fff;
+	font-variant: small-caps;
+}
+
+input[type='submit']:hover, input[type='reset']:hover {
+	cursor: pointer;
+}

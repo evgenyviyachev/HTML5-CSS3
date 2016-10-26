@@ -1,0 +1,64 @@
+#wrapper {
+    width: 360px;
+    height: 160px;
+    border: 1px solid grey;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    /* This make everything otside #wrapper to be hidden*/
+    overflow: hidden;
+}
+.logo {
+    height: 70px;
+    width: 350px;
+    background-image: url(WPlogo.png);
+    background-size: 310px 70px;
+    background-position: left;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -5px;
+    box-sizing: border-box;
+}
+.search, .upload {
+    height: 25px;
+    width: 100%;
+    position: relative;
+    vertical-align: middle;
+    padding-top: 13px; 
+}
+input{
+    vertical-align: middle;
+    position: relative;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+}
+.pic {
+    position: absolute;
+    /*top: 10px;*/
+    /*left: -15px;*/
+    height: 35px;
+    width: 78px;   
+    top: 10px;
+    left: 296px;
+    background-image: url(WPsmall.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+}
+
+/*img {
+    position: relative;
+    top: 10px;
+    left: -15px;
+    height: auto;
+    width: 60px;
+}*/
+
+.search input {
+    border: 1px solid grey;
+    height: 30px;
+    width: 160px;
+}
+#ssss::-webkit-file-upload-button {
+    /*visibility: hidden;*/
+}

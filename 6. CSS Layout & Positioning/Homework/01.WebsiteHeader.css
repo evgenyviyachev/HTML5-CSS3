@@ -1,0 +1,149 @@
+body, html, div, section, header, a {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: block;
+    height: 145px;
+    width:100%;
+    color:#D0D0D0;
+    background: #234465;
+}
+
+#logo, #logo a {display: inline-block;}
+
+#logo a {
+    width:416px;
+    height: 145px;
+    background-image: url('http://s30.postimg.org/6rxesnu5t/logo.png');
+    text-indent: -9999px;
+}
+
+#wrap-main-head-items {
+    display: inline-block;
+    width:925px;
+    height: 146px;
+    vertical-align: top;
+}
+
+#user-search {
+    position: relative;
+    display: inline-block;
+    width:416px;
+    height:65px;
+    text-align: center;
+    line-height: 65px;
+    overflow: hidden;
+    background:#234465;
+    float: right;
+}
+
+#user-search #notifications, #user, #search-bar, span {
+    display: inline-block;
+}
+
+#user-search #notifications, #user-search #user, #user-search #search-bar {
+  background-color:#234465;
+}
+
+#user-search #notifications span {
+    width:50px;
+    text-align: left;
+    color:#D0D0D0;
+    font-family: Verdana;
+    font-size:20px;
+    background-image: url('https://cdn3.iconfinder.com/data/icons/miniglyphs/500/044-128.png');
+    background-size:30px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#user-search #user select {
+    height: 30px;
+    width:80px;
+    color:#D0D0D0;
+    background:#234465;
+    border:0;
+    border-radius:20px;
+    font-family: Verdana;
+    font-size:20px;
+
+}
+
+#user-search input[type="search"] {
+    height: 30px;
+    font-size:18px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right:0;
+    border:white;
+}
+
+#user-search input[type="submit"] {
+    position: relative;
+    top: 1px;
+    height: 30px;
+    width:30px;
+    background-color:white;
+    background-image: url('http://icons.iconarchive.com/icons/delacro/id/48/Search-2-icon.png');
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: middle;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom:5px;
+    margin-left:-6px;
+    cursor: pointer;
+    border-left: 0;
+    border:white;
+}
+
+#menu {
+    display: inline-block;
+    width:100%;
+    height: 75px;
+    background:#234465;
+    vertical-align:middle;
+}
+
+#menu ul {
+    display: inline-block;
+    margin-left:-15px;
+}
+
+#menu ul li {
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    margin-right:5px;
+}
+
+#menu ul li a {
+    display:inline-block;
+    padding:10px;
+    text-decoration: none;
+    font-family: Verdana;
+    font-size:18px;
+    color:white;
+    border-radius: 10px;
+}
+
+#menu ul li a:hover {
+    background:#FF3300;
+}
+
+#menu ul li select {
+    padding:10px;
+    font-family: Verdana;
+    font-size:18px;
+    color:white;
+    background: #234465;
+    border-radius: 10px;
+    border:0;
+}
+
+#menu ul li select:hover {
+    background:#FF3300;
+}

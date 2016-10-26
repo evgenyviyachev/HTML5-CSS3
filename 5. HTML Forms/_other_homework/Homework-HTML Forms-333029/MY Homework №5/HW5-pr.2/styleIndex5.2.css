@@ -1,0 +1,148 @@
+#wrapper {
+    font-family: Arial Narrow;
+    font-style: italic;
+    background-color: lightpink;
+    height: 400px;
+    width: 450px;
+    position: absolute;
+    margin: 20px 0 0 20px;
+    padding: 0 20px 0 15px; 
+}
+header {
+    font-size: 2em;
+    text-align: center;
+    margin: 20px 0 20px 0;
+
+}   
+.from, .to {
+    display: inline-block;
+    position: absolute;
+    height: 278px;
+    width: 222px;
+}
+.from p:nth-of-type(4), .from p:nth-of-type(5), 
+.from p:nth-of-type(6) {
+    display: inline-block;
+    width: 71.5px;
+}
+
+.from input:nth-of-type(1), .to input:nth-of-type(1) {
+    background-image: url(arrowdown2.png);
+    background-size: 10px 10px;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+p {
+    margin-bottom: 5px;
+    margin-top: 5px; 
+}
+            /* First COLOMN*/
+
+            /* First method - start */
+/*.from input:nth-of-type(4), .from input:nth-of-type(5), 
+.from input:nth-of-type(6) {
+    display: inline-block;
+    width: 65.5px;
+    height: 24px; 
+ 
+}*/
+            /* First method - finish*/
+            /* Second method - start*/
+
+select {
+    display: inline-block;
+    width: 71.5px;
+    height: 30px; 
+    font-size: 16px;
+    border-radius: 0;
+    -webkit-appearance:none;
+    -moz-appearance: none;
+    padding-left: 5px; 
+    background-image: url(arrows.png);
+    background-repeat: no-repeat;
+    background-size: 15px 24px;
+    background-position: right;
+}
+            /* Second method - finish*/
+
+
+.from input:nth-of-type(1), .from input:nth-of-type(2), 
+.from input:nth-of-type(3), 
+.to input:nth-of-type(1), .to input:nth-of-type(7), 
+.to input:nth-of-type(7)  
+{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.from p:nth-of-type(2){
+    margin-top: 10px;
+}
+input {
+    height: 30px;
+}    
+.from input:nth-of-type(2), .from input:nth-of-type(3){
+    text-decoration: none;
+}
+
+
+
+            /*Second COLOMN*/
+
+.to {
+    left: 241px; 
+
+}
+.to input:nth-of-type(2) {
+    height: 15px;
+    padding-top: 5px;
+}
+
+.btn {
+    display: block;
+    position: relative;
+    float: right;
+    top: 248px;
+    right: 2px;
+    width: 222px;
+    -webkit-appearance: none;
+    background: white;
+    border: 1px solid grey;
+
+}
+.to input:nth-of-type(3), .to input:nth-of-type(4), 
+.to input:nth-of-type(5), .to input:nth-of-type(6) {
+    width: 104px;
+    height: 26px;
+}
+input {
+    font-size: 14px;
+}
+input::-webkit-input-placeholder {
+    color: black;   
+}
+                /* Second method - start */
+.to select {
+    width: 100%;
+    box-sizing: border-box;
+    background-image: url(arrowdown2.png);
+    background-size: 10px 10px;
+    background-position: right;
+    background-repeat: no-repeat;
+    
+}
+                /* Second method - finish */
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,73 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+footer {
+    padding:20px 20px 10px 20px;
+    background-color: #234465;
+    color:white;
+}
+section {
+    display: inline-block;
+    vertical-align: top;
+    width:240px;
+    height: 250px;
+}
+
+ul li {
+    list-style: none;
+    display: block;
+}
+
+ul li a {
+    display: block;
+    margin-bottom: 8px;
+    text-decoration: none;
+    color:white;
+}
+
+section#apply a {
+    display: block;
+    width:125px;
+    height: 45px;
+    padding: 10px;
+    line-height: 45px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border:2px solid #FF9900;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+    color:white;
+}
+section#apply a:hover {background:#FF9900;}
+section > header > h4 {
+    margin-bottom: 5px;
+    color:#FF9900;
+}
+section#copyright {margin-right: 15px;}
+section#copyright a  {
+    display: inline-block;
+    width:45px;
+    height: 45px;
+    background-color: #0099CC;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-indent: -9999px;
+    border-radius: 10px;
+    margin-top:15px;
+}
+
+#tweet {
+        background-image: url('http://www.clipartbest.com/cliparts/niB/7jy/niB7jyrXT.png');
+}
+
+#face {
+  background-image: url('http://www.freeiconspng.com/uploads/facebook-f-logo-transparent-facebook-f-22.png');
+}
+
+#google {
+    background-image: url('http://www.themountainpulse.com/wp-content/images/2013/12/google-plus-icon.png');
+}

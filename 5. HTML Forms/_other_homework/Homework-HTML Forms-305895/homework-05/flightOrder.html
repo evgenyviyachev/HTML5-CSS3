@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" type="text/css" 	href="flightOrder.css">
+		<title>Flight Order</title>
+		
+	</head>
+	
+	<body>
+	
+	<div id="wrapper" class="clear">
+		<h1>FLIGHT ORDER</h1>
+		
+		<section id="left">
+			<form class="clear">
+				<label for="city">From</label>
+				<select id="city">
+					<option class="bg">enter a city</option>
+					<option>Plovdiv</option>
+					<option>Sofia</option>
+					<option>Burgas</option>
+				</select>
+				
+				<label for="d-day">Departure Date</label>
+				<input type="date" id="d-day"/>
+				
+				<label for="r-day">Return Date</label>
+				<input type="date" id="r-day"/>
+				
+				<div class="one-third">
+					<label for="age">12+</label>
+					<input type="number" id="age" min="0" value="0"/>
+				</div>
+				
+				<div class="one-third">
+					<label for="age-one">2-12</label>
+					<input type="number" id="age-one" min="0" value="0"/>
+				</div>
+				
+				<div class="one-third">
+					<label for="age-two">0-2</label>
+					<input type="number" id="age-two" min="0" value="0"/>
+				</div>
+				
+			</form>
+		</section>
+		
+		<section id="right">
+			<form class="clear">
+				<label for="to">To</label>
+				<select id="to">
+					<option class="bg">enter a city</option>
+					<option>Plovdiv</option>
+					<option>Sofia</option>
+					<option>Burgas</option>
+				</select>
+				
+				<div class="clear" id="smallCheck">
+					
+					<input type="checkbox" id="direct"/>
+					<label for="direct" class="direct">Prefer direct</label>
+				</div>
+				
+				<label for="timeInt">Time Interval</label>
+				<input type="time" id="timeInt"/>
+				
+				<input type="time"/>
+				
+				<label for="timeIntBack">Time Interval</label>
+				<input type="date" id="timeIntBack"/>
+				
+				<input type="time"/>
+				
+				<label for="class">Choose class</label>
+				<select id="class">
+					<option class="bg">Economy</option>
+					<option>First</option>
+					<option>Business</option>
+				</select>
+				
+				<input type="submit" value="Search"/>
+					
+			</form>
+		</section>
+
+	</div>
+	</body>
+</html>

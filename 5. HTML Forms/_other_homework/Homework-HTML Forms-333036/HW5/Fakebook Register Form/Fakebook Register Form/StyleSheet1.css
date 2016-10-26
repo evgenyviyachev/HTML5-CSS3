@@ -1,0 +1,93 @@
+﻿body {
+font-family: Arial,serif;
+margin: 0,auto;
+}
+#wrapper {
+margin: auto;
+max-width: 1100px;
+max-height: 800px;
+background-color: rgb(59,89,151);
+border: 1px solid black;
+}
+/*header*/
+h1 {color: white;
+font-size:3.5em;
+text-align:center;
+}
+h5 {color: white;
+font-size:2em;
+text-align:center;
+}
+p{color: white;
+font-size:1em;
+text-align:center;
+}
+/*main*/
+fieldset {
+border-radius: 10px;
+color: white;
+}
+legend {
+font-size: 0.8em;
+text-align: center;
+font-weight: bold;
+}
+#left {
+max-width: 350px;
+}
+article {
+display: inline-block;
+}
+ul li{
+display: inline;
+list-style-type: none;
+}
+#nested {display:inline; list-style-type:none;
+}
+.row {width:20px;
+}
+input {
+width: 120px;
+margin: 2px;
+padding: 3px;
+border-radius: 3px;
+border: 1px solid rgb(59,89,151);
+font-size: 0.8em;
+}
+#bd {
+margin:10px 0;
+width: 250px;
+padding: 3px;
+}
+#right {
+max-width: 550px;
+max-height: 500px;
+}
+label {padding-bottom:2px;
+font-size: 0.8em;
+font-weight: bold;
+}
+select, option {
+color: #999;
+width: 120px;
+margin: 2px;
+padding: 2px;
+border-radius: 3px;
+border: 1px solid rgb(59,89,151);
+}
+.addres { width: 62px;padding: 2px;
+}
+textarea {width:75%;
+}
+button{
+color:rgb(59,89,151);
+margin:10px 2px;
+font-size:1.5em;
+padding:5px;
+border-radius:10px;
+border:none;
+}
+button:first-child {width:380px;
+}
+button:last-child{width:100%;
+}

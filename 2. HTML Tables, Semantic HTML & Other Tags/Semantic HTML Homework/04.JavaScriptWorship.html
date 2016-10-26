@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JavaScript</title>
+</head>
+<body>
+  <canvas id="myCanvas" height="250" width="220"></canvas>
+  <script>
+    var ctx = document.getElementById("myCanvas").getContext("2d");
+    ctx.font = "30px Times";
+    ctx.fillText("I love JavaScript", 10, 50);
+    document.getElementById("myCanvas").style.border = "3px dotted red";
+
+    var img = new Image();
+    img.src = "Problem04/js.png";
+
+    img.onload = function() {
+      ctx.drawImage(img, 45, 80, 130, 130);
+    }
+  </script>
+</body>
+</html>
